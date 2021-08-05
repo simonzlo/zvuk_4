@@ -1,0 +1,54 @@
+.main {
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 14px;
+  margin-right: 14px;
+
+  width: calc(100vw - 28px);
+  height: calc(100vh - 8px);
+  background-image: url("../images/main.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 200;
+}
+
+.container_main_page nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.container_main_page nav a {
+  padding-top: 134px;
+  display: flex;
+  justify-content: center;
+  z-index: 300;
+  height: calc(100vh - 134px - 20px);
+  padding-bottom: 0;
+}
+
+/* SIZES FOR HOVER */
+.container_main_page nav a.seminars { width: 241px; }
+.container_main_page nav a.conferences { width: 179px; }
+
+/* HOVER OPACITY */
+.container_main_page nav a:hover { opacity: 0.9; }
+
+/* COMPANY NAME CSS */
+
+.company_name {
+  /* LOCATION */
+  position: absolute;
+  bottom: 33px;
+  z-index: 100;
+  /* SIZE */
+  width: 100%;
+  height: 9.6875em; /* em измеряется относительно шрифта */
+  /* BACKGROUND PROPERTIES */
+  background-image: url("../images/company_name.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
