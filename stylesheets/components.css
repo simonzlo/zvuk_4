@@ -23,25 +23,19 @@
 .conferences_sidebar { background-image: url("../images/conferences_sidebar.png");  }
 .contacts_sidebar { background-image: url("../images/contacts_sidebar.png");  }
 
-.container_main_page nav .about:hover {
-  background-image: url("../images/about.png");
-  background-repeat: no-repeat;
-}
 
-.container_main_page nav .seminars:hover {
-  background-image: url("../images/seminars.png");
-  background-repeat: no-repeat;
-}
-
-.container_main_page nav .conferences:hover {
-  background-image: url("../images/conferences.png");
-  background-repeat: no-repeat;
-}
-
+.container_main_page nav .about:hover,
+.container_main_page nav .seminars:hover,
+.container_main_page nav .conferences:hover,
 .container_main_page nav .contacts:hover {
-  background-image: url("../images/contacts.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.container_main_page nav .about:hover { background-image: url("../images/about.png"); }
+.container_main_page nav .seminars:hover { background-image: url("../images/seminars.png"); }
+.container_main_page nav .conferences:hover { background-image: url("../images/conferences.png"); }
+.container_main_page nav .contacts:hover { background-image: url("../images/contacts.png"); }
 
 .shop_gradient,
 .container_main_page nav .shop:hover, .cloths img:hover,

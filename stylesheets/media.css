@@ -1,0 +1,45 @@
+@media only screen and (max-device-width: 414px) {
+  .container_main_page {
+    width: 414px;
+    height: 736px;
+  }
+
+  .main {
+    transform: rotate(90deg);
+    margin: 0;
+    top: 108px;
+    right: 0;
+
+    min-width: 490px;
+    min-height: 298px;
+    width: 87%;
+    height: 17%;
+
+    background-size: contain;
+  }
+
+  .container_main_page nav {
+    flex-direction: column;
+    min-height: 356px;
+    margin-top: 32px;
+  }
+
+  .container_main_page nav a {
+    height: inherit;
+    padding-top: 0;
+    justify-content: flex-start;
+  }
+
+  .container_main_page nav a.seminars { width: inherit; }
+  .container_main_page nav a.conferences { width: inherit; }
+
+  .company_name {
+    transform: rotate(90deg);
+    top: 188px;
+    left: 16px;
+    min-width: 496px;
+    min-height: 55px;
+    width: 87%;
+    height: 17%;
+  }
+}

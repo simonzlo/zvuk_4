@@ -25,7 +25,7 @@
   display: flex;
   justify-content: center;
   z-index: 300;
-  height: calc(100vh - 134px - 20px);
+  height: calc(100vh - 134px - 6px);
   padding-bottom: 0;
 }
 
