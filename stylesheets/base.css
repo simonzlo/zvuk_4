@@ -34,7 +34,7 @@ a.disabled {
 .navigation {
   position: absolute;
   height: 20px;
-  top: 32px;
+  top: -56px;
   left: 240px;
 }
 

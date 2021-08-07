@@ -78,6 +78,7 @@ footer .h4 a {
 
 .contacts a:hover {
   color: white;
+  transition-duration: 120ms, 120ms;
 }
 
 .contact .social {
